@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+
+        android:title=""
+        android:icon="@drawable/jpflag"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/action_eng_jp"
+                android:icon="@drawable/jpflag"
+                android:title="English-Japanese"
+                android:orderInCategory="100"
+                app:showAsAction="never"/>
+            <item android:id="@+id/action_jp_eng"
+                android:icon="@drawable/engflag"
+                android:title="Japanese-English"
+                android:orderInCategory="100"
+                app:showAsAction="never"/>
+
+        </menu>
+    </item>
+</menu>
